@@ -1,0 +1,9 @@
+.films > img{
+    width: auto;
+    height: 400px;
+}
+
+.section {
+    float: left;
+    width: 100%;
+}

@@ -1,9 +1,100 @@
-.films > img{
+.row{
     width: auto;
-    height: 400px;
+    height: auto;
 }
 
-.section {
-    float: left;
-    width: 100%;
+[class*='col-']{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    break-inside: avoid;
+    overflow: avoid;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+
+}
+
+
+.films > img{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    break-inside: avoid;
+    font-family: 'Poiret One', cursive;
+    /* justify-content: space-around;
+    padding: 5px; */
+}
+
+.pic > img{
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.pic2 > img{
+    max-width: 100%; 
+    height: auto;
+    float: right;
+    display: baseline;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 5em;
+}
+
+body{
+    background-color: rgb(14, 44, 53);
+    /* display: flex;
+    justify-content: justify;
+    align-content: center; */
+    font-family: 'Poiret One', cursive;
+    color: rgb(191, 223, 249);
+
+}
+
+/* label{
+    background-color: black;
+} */
+
+section{
+    display: flex;
+    justify-content: justify;
+    align-content: center;
+    font-family: 'Poiret One', cursive;
+    color: rgb(120, 164, 180);
+}
+
+.signup{
+    max-width: 100%;
+    display: block;
+    align-content: right;
+    font-family: 'Poiret One', cursive;
+    color: rgb(120, 164, 180);
+}
+
+.skills{
+    background-color: azure;
+    color: rgb(14, 44, 53);
+    width: auto;
+    height: 125px;
+    align-content: right;
+    justify-content: baseline;
+}
+
+.jumbotron {
+    color: rgb(120, 164, 180);
+    background-color: black;
+    height: 300px;
+}
+
+footer{
+    align-content: right;
+    justify-content: space-evenly;
+    color: rgb(120, 164, 180);
+}
+
+.links{
+    float: right;
 }

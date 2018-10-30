@@ -5,48 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">~RW~</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                      </div>
+                    </div>
+                  </nav>
     </header>
 
     <section>
-        <div>
-            <img src="http://www.quoteambition.com/wp-content/uploads/2017/04/robin-williams.jpg">
             <h1>Robin Williams</h1>
-        </div>
     </section>
 
     <section>
-        <div>
-            <h3>A Little About Robin</h3>
-                <p>Robin McLaurin Williams (July 21, 1951 – August 11, 2014) was an American actor and comedian. Born in Chicago, Williams started as a stand-up comedian in San Francisco and Los Angeles in the mid-1970s. He is credited with leading San Francisco's comedy renaissance.[1] After rising to fame as an alien called Mork in the TV sci-fi sitcom series Mork & Mindy, Williams established a career in both stand-up comedy and feature film acting. He was known for his improvisational skills.
+            <div class="pic">
+                <img src="http://www.quoteambition.com/wp-content/uploads/2017/04/robin-williams.jpg">
+            </div>
+    </section>
+
+    <section>
+        <div class="info">
+            
+            <h2>A Little About Robin</h2>
+            <div class="col-md-10"
+            <p>Robin McLaurin Williams (July 21, 1951 – August 11, 2014) was an American actor and comedian. Born in Chicago, Williams started as a stand-up comedian in San Francisco and Los Angeles in the mid-1970s. He is credited with leading San Francisco's comedy renaissance.[1] After rising to fame as an alien called Mork in the TV sci-fi sitcom series Mork & Mindy, Williams established a career in both stand-up comedy and feature film acting. He was known for his improvisational skills.
                 
                 Williams won the 1997 Academy Award for Best Supporting Actor for his performance as psychologist Sean Maguire in Good Will Hunting. He also received two Emmy Awards, seven Golden Globe Awards, two Screen Actors Guild Awards, and four Grammy Awards throughout his career. On August 11, 2014, Williams passed away.</p>
+                </div>
         </div>
     </section>
+        
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">MY SKILLS:</h1>
+                  <p class="lead">
+                        <ol>
+                                <li>Improv</li>
+                                <li>Making people laugh</li>
+                                <li>Cartoon voices</li>
+                            </ol>                    
+                  </p>
+                  <div class="links">
+                            <h2>Sweet Memories:</h2>
+                            <a href="https://twitter.com/robinwiliiams_?lang=en"><img src="images/twitter.png"></a>
+                            <a href="https://www.facebook.com/Robin-Williams-1951-2014-1467215200198331/"><img src="images/fb.png"></a>
+                            <a href="https://www.instagram.com/therobinwilliams/?hl=en"><img src="images/insta.png"></a>
+                      </div>  
+                </div>
+              </div>
+      
 
-    <section>
-        <div>
-            <h3>My Skills</h3>
-            <ol>
-                <li>Improv</li>
-                <li>Making people laugh</li>
-                <li>Cartoon voices</li>
-            </ol>
-        </div>
-    </section>
 
     <footer>
-        <a href="https://twitter.com/robinwiliiams_?lang=en"><img src="images/twitter.png"></a>
+
+        <h1>Thank you for visiting!!</h1>
+        <!-- <a href="https://twitter.com/robinwiliiams_?lang=en"><img src="images/twitter.png"></a>
         <a href="https://www.facebook.com/Robin-Williams-1951-2014-1467215200198331/"><img src="images/fb.png"></a>
-        <a href="https://www.instagram.com/therobinwilliams/?hl=en"><img src="images/insta.png"></a>
+        <a href="https://www.instagram.com/therobinwilliams/?hl=en"><img src="images/insta.png"></a> -->
+
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
